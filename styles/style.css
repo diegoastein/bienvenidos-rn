@@ -29,7 +29,7 @@ p {
     text-align: justify;
     font-weight: 400;
 }
-
+/* estilos de la nav*/
 .nav-ul li {
     list-style: none;
 }
@@ -41,6 +41,7 @@ p {
     font-weight: 400;
 }
 
+/*estilos del footer*/
 .footer-ul {
     list-style: none;
 }
