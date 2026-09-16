@@ -1,12 +1,18 @@
 /* fuentes de google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 /* familia de fuentes     font-family: "Playpen Sans", cursive; */
+
+/* aplica a todo el body */
+
 body {
     font-family: "Playpen Sans", cursive;
-    } 
-
+    background-color: #e4d8ae;
+}
     
-h1 {color: #159BAD;
+
+/*colores, fuentes y tamaños de los textos*/
+    
+h1 {color: #0a7786;
     font-size: 3.5rem;
     text-align: center;
     font-weight: 700;
@@ -18,7 +24,7 @@ h2 {color:#2D701F;
     font-weight: 500;
 }   
 
-p {color:#2D5507;
+p {color:#162b03;
     font-size: 1.5rem;
     text-align: justify;
     font-weight: 400;
