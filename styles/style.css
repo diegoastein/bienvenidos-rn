@@ -1,11 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    }   
+
+
 /* fuentes de google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 /* familia de fuentes: font-family: "Playpen Sans", cursive; */
 
 /* aplica a todo el body */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .logo {
+    width: 300px;
+    height: auto;
+    }
+img {
+    max-width: 20%;
+    height: auto;
+}
 body {
     font-family: "Playpen Sans", cursive;
     background-color: #e4d8ae;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+/*espaciado entre articles */
+
+
+article {
+    margin: 30px 0; 
 }
 
 /* colores, fuentes y tamaños de los textos */
@@ -30,8 +66,17 @@ p {
     font-weight: 400;
 }
 /* estilos de la nav*/
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 20px;
+}
 .nav-ul li {
     list-style: none;
+   
 }
 
 .nav-ul li a {
@@ -39,6 +84,8 @@ p {
     color: #091201;
     font-size: 1rem;
     font-weight: 400;
+    padding: 20px 0;    
+
 }
 
 /*estilos del footer*/
