@@ -194,7 +194,7 @@ footer {
     border-radius: 12px;
 }
 
-/* ========== TABLET ========== */
+/* ======== TABLET ========== */
 @media (min-width: 768px) {
     header {
         flex-direction: row;
@@ -242,7 +242,7 @@ footer {
     }
 }
 
-/* ========== DESKTOP ========== */
+/* ======== DESKTOP ========== */
 @media (min-width: 1024px) {
     header {
         padding: 10px 48px;
